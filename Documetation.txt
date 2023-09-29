@@ -1,0 +1,48 @@
+Introduction
+The Weather App is a web-based application that allows users to check weather information for a specific city or use their device's location to obtain weather data. This documentation provides an overview of the app's features, usage, and external dependencies.
+
+Features
+City-Based Weather Lookup: Users can enter the name of a city and retrieve its current weather information.
+
+Device Location: Users can allow the app to access their device's location to fetch weather data for their current location.
+
+Validation: The app provides validation for both city names and device location access.
+
+Display: Weather information, including humidity, is displayed to the user.
+
+Styling: The app uses Google Fonts and BoxIcons for styling elements.
+
+Usage
+City-Based Weather Lookup
+Open the Weather App in your web browser.
+
+In the "Enter city name" input field, type the name of the city you want to check the weather for.
+
+Click the enter.
+
+If the city name is valid, the app will display the current weather information for that city.
+
+If the city name is invalid, an error message ("Enter valid city name") will be displayed.
+
+Device Location Weather Lookup
+Open the Weather App in your web browser.
+
+Click the "Get Device Location" button.
+
+If you grant permission to access your device's location, the app will retrieve weather data for your current location.
+
+If you deny permission to access your device's location, an error message ("User denied location") will be displayed.
+
+Styling
+The app uses Google Fonts to style text elements.
+
+Icons are provided by BoxIcons.
+
+Dependencies
+The Weather App relies on the following external services and resources:
+
+OpenWeatherMap API: To fetch weather data based on city names and location coordinates. (URL: https://api.openweathermap.org/)
+
+Google Fonts: Used to apply custom fonts to text elements. (URL: https://fonts.google.com/)
+
+BoxIcons: Provides icons for various UI elements. (URL: https://boxicons.com/)
